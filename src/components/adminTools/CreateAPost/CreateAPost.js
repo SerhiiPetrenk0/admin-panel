@@ -39,7 +39,7 @@ class CreateAPost extends Component {
                         </div>
                     </div>
                     <div className="CreateAPost-content2">
-                        <PostForm  setActive={this.changeModalActive.bind(this)} />
+                        <PostForm  setActive={ this.changeModalActive.bind(this) } />
                     </div>
                 </div>
                 
