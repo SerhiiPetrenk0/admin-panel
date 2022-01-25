@@ -1,0 +1,29 @@
+.PostManagement-content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+}
+.PostManagement-content-container-inner {
+  padding: 0px 32px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  width: 95%;
+  height: max-content;
+}
+.Header-filter .DropDown-continer {
+  margin: 0 16px;
+}
+.Header-filter .SearchComponent-container {
+  width: 100%;
+  position: relative;
+  margin: 16px 16px;
+}
+.Header-filter {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

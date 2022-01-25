@@ -1,0 +1,112 @@
+.Notifications-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+}
+.Notifications-container .Notifications-Section {
+  flex: 1;
+  height: 750px;
+  padding: 25px 50px;
+  margin: 0 24px;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  position: relative;
+}
+.Notifications-Section div {
+  margin-top: 15px;
+}
+.Create-Section-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #11142d;
+}
+.Notifications-container .CustomButton-position {
+  bottom: 50px;
+}
+.Notifications-container .View-Section {
+  flex: 1;
+  padding: 50px;
+  height: max-content;
+  margin: 0 24px;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* NotificationSendItem */
+.NSI-container {
+  width: 100%;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.NSI-header {
+  display: flex;
+  align-items: center;
+
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #11142d;
+}
+.NSI-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--btnColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.NSI-circle div {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.NSI-ApplicationName {
+  color: var(--btnColor);
+}
+.NSI-point {
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.NSI-time {
+  margin-right: 5px;
+}
+.NSI-Icon-arrow {
+  width: 13px;
+}
+.NSI-content {
+  margin-top: 8px;
+}
+.NSI-title {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #11142d;
+  margin: 4px 0;
+}
+.NSI-subTitle {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  font-family: Inter;
+  color: #808191;
+}

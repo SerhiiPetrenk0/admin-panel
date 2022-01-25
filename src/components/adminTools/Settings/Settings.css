@@ -1,0 +1,70 @@
+.Settings-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+}
+
+.Settings-container .Create-Section {
+  flex: 1;
+  height: 550px;
+  padding: 50px;
+  margin: 0 24px;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  position: relative;
+}
+.Settings-container .Create-Section .PostTitleName {
+  margin-top: 15px;
+}
+.Settings-container .Create-Section-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #11142d;
+}
+.Create-Section .CustomButton-position {
+  bottom: 50px;
+}
+.Settings-container .View-Section {
+  flex: 1;
+  padding: 50px;
+  height: max-content;
+  margin: 0 24px;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+.View-Section .AdminItem-Name {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Inter;
+  color: #808191;
+}
+.View-Section .AdminItem-btn {
+  font-size: 14px;
+  font-weight: 5600;
+  font-style: normal;
+  font-family: Inter;
+  line-height: 20px;
+  color: #fff;
+
+  height: 40px;
+  width: 90px;
+  border-radius: 12px;
+  background-color: var(--btnColor);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AdminItem-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #e4e4e4;
+}

@@ -1,0 +1,71 @@
+.UsersManagement-conteiner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+}
+.UsersManagement-conteiner-inner {
+  margin-top: 20px;
+  padding: 10px 50px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 0.2);
+  width: 95%;
+  min-height: 95%;
+  height: max-content;
+}
+.UsersManagement-conteiner table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.UsersManagement-conteiner thead {
+  color: #b2b3bd;
+}
+.UsersManagement-conteiner thead tr td:nth-of-type(4) {
+  width: 200px;
+}
+.UsersManagement-conteiner thead tr td:nth-of-type(5) {
+  width: 200px;
+}
+.UsersManagement-conteiner tr {
+  height: 84px;
+}
+.UsersManagement-conteiner .header {
+  height: 84px;
+  display: flex;
+  height: 84px;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+}
+.UsersManagement-conteiner .header .CustomButton-position {
+  position: relative;
+  bottom: 0;
+}
+.UsersManagement-conteiner tbody tr {
+  border-bottom: 1px solid #e3e6ec;
+}
+.UsersManagement-conteiner .RegistrationDate {
+  color: #eb5757;
+}
+.UsersManagement-conteiner .AccountStatus {
+  color: #5f75ee;
+}
+.UsersManagement-conteiner-inner > .VievMore {
+  margin-top: 20px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

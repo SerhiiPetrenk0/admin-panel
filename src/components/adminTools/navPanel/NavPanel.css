@@ -1,0 +1,109 @@
+.NavPanel-container {
+  min-width: 256px;
+  max-width: 256px;
+  position: relative;
+  flex: 1;
+}
+.NavPanel-logo {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+.NavPanel-List {
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.NavPanel-List p {
+  padding-left: 20px;
+}
+.NavPanel-List .active .NavPanel-item {
+  background: var(--btnColor);
+  color: white;
+}
+.NavPanel-item {
+  color: #808191;
+  display: flex;
+  height: 56px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: Inter;
+}
+.NavPanel-item img {
+  margin: 0px 20px;
+}
+.NavPanel-List .NavPanel-item .Notifications {
+  background-color: white;
+  color: #ffffff;
+}
+.NavPanel-List .active .NavPanel-item .Notifications {
+  position: absolute;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--btnColor);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 16px;
+}
+.footer-avatar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 12px 40px;
+
+  display: flex;
+  align-items: center;
+}
+.footer-avatar img {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.footer-avatar-content h3 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 4px;
+  font-style: normal;
+}
+.footer-avatar-content p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  font-style: normal;
+  color: #808191;
+}
+.NavPanel-Link {
+  text-decoration: none;
+}
+.Admin_tools {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: Inter;
+  color: #808191;
+}

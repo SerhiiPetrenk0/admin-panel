@@ -1,0 +1,257 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+.Custom-table {
+  font-family: Inter;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Custom-table .Check-containers {
+  margin: 0;
+  padding: 0;
+}
+.Custom-table .Check-containers .container {
+  padding: 0;
+  top: -3px;
+}
+
+.Custom-table input:checked ~ .checkmark {
+  background-color: #6c5dd3;
+}
+.Custom-table thead {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 18px;
+  font-weight: 500;
+  color: #b2b3bd;
+}
+.Custom-table thead tr {
+  height: 76px;
+  border-bottom: 2px solid #e4e4e4;
+}
+
+/*BODY*/
+.contentList {
+  height: 158px;
+}
+.contentList td:nth-of-type(1) {
+  min-width: 40px;
+}
+.contentList td:nth-of-type(2) {
+  min-width: 130px;
+}
+.contentList td:nth-of-type(3) {
+  min-width: 130px;
+}
+.contentList td:nth-of-type(4) {
+  min-width: 130px;
+}
+.contentList td:nth-of-type(5) {
+  min-width: 90px;
+}
+.contentList td:nth-of-type(7) {
+  width: 150px;
+}
+.contentList tr {
+  vertical-align: bottom;
+}
+.contentList .checkmark {
+  box-sizing: content-box;
+  border: 2px solid rgb(182, 182, 182);
+}
+.contentList .TitleName {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter;
+  font-style: normal;
+  color: #11142d;
+  margin-bottom: 5px;
+}
+.contentList .TitleLogo {
+  margin-top: 30px;
+}
+.contentList .Subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: Inter;
+  font-style: normal;
+  color: #808191;
+}
+.contentList .ViewAll {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: normal;
+  font-family: Inter;
+  font-style: normal;
+  color: #808191;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.contentList .ViewAll img {
+  width: 18px;
+  height: 18px;
+  transition: 0.5s;
+}
+.contentList .PostTitle {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter;
+  font-style: normal;
+  line-height: 24px;
+  color: #11142d;
+}
+.contentList .CategoryChoise {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter;
+  font-style: normal;
+  line-height: 24px;
+  color: #11142d;
+  width: 310px;
+}
+.CategoryChoise-position {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.CategoryChoise-pointer {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-color: #6c5dd3;
+}
+.contentList .DateOfPublication {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter;
+  font-style: normal;
+  line-height: 24px;
+  color: #5f75ee;
+}
+.contentList .EditOrDelete {
+  display: flex;
+}
+.contentList .Category {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter;
+  font-style: normal;
+  line-height: 24px;
+  color: #808191;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.contentList .EditOrDelete div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.contentList .EditIcon2 {
+  background-color: white;
+  margin-left: 5px;
+  border-radius: 50%;
+  box-shadow: 0px 19px 21px -12px rgba(0, 0, 0, 0.2);
+}
+
+/* Drop-Information1 */
+.Information {
+  padding: 0 22px;
+}
+.Information-conteiner div {
+  flex: 1;
+  margin: 10px 10px;
+}
+.Information-conteiner {
+  display: flex;
+  overflow: hidden;
+  margin: 15px 0;
+  height: 400px;
+  transition: 0.5s;
+}
+
+/*show hide*/
+.Information-conteiner.showhide {
+  display: flex;
+  overflow: hidden;
+  margin: 0px 0px;
+  height: 0px;
+  transition: 0.5s;
+}
+
+.CreateAndManage-contant-block1 .Information-conteiner.showhide {
+  display: flex;
+  overflow: hidden;
+  margin: 0px 0px;
+  height: 0px;
+  transition: 0.5s;
+}
+.ViewAll-img {
+  transform: rotate(180deg);
+}
+.Information-conteiner-photo {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 16px;
+  color: #808191;
+  margin-bottom: 0px !important;
+}
+
+.Information-conteiner-block1 .Check-containers {
+  display: flex;
+  align-items: center;
+}
+.Information-conteiner-block1 .Check-containers div {
+  margin-left: 20px;
+}
+.Information-conteiner-block1 .CheckBoxBlock-container {
+  margin: 0 10px;
+}
+.Information-conteiner-block1 input:checked ~ .checkmark {
+  background-color: var(--btnColor);
+}
+.Information-conteiner-block1 .container {
+  margin-right: 20px;
+  top: -3px;
+}
+.Information-conteiner-block2 .input-pass {
+  margin: 0 0;
+}
+.Information-conteiner-block3 {
+  position: relative;
+}
+.Information-conteiner-block3 .CustomButton-position {
+  bottom: -15px;
+  right: -15px;
+}
+
+/* Drop-Information2 */
+.CreateAndManage-contant-block1 .Information-conteiner {
+  height: 600px;
+}
+.InformationConteiner2-CustomButton {
+  height: 88px;
+  position: relative;
+  flex: 1;
+}
+.CreateAndManage-contant-block1 .CustomButton-position {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+.CreateAndManage-contant-block1 .DropDown-continer {
+  margin-left: 0;
+}
+.CreateAndManage-contant-block1 .DropDown-view {
+  margin-left: 0;
+}

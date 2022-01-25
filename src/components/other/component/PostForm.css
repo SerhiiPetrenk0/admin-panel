@@ -1,0 +1,47 @@
+.CreateAPost-content2-inner {
+  width: 100%;
+}
+.Post-Title:nth-of-type(1) {
+  margin-top: 50px;
+}
+.Post-Title {
+  margin-bottom: 16px;
+}
+.PostTitleName {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 16px;
+  color: #808191;
+  margin-bottom: 16px;
+}
+.PostTitleView {
+  background: #f7f7f7;
+  border-radius: 8px;
+  border: 0;
+  height: 56px;
+  outline: none;
+  padding-left: 16px;
+
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.PostDiscriptionView {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 0;
+  height: 164px;
+  outline: none;
+  padding-left: 16px;
+
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  resize: none;
+}

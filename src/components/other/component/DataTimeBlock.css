@@ -1,0 +1,47 @@
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type='datetime-local']::-webkit-calendar-picker-indicator {
+  background-image: url('../../../icon/Calendar.svg');
+}
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type='datetime-local']::-webkit-calendar-picker-indicator,
+input[type='time']::-webkit-calendar-picker-indicator {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+.DataTimeBlock-container {
+  width: 100%;
+  height: 88px;
+  position: relative;
+}
+.DataTimeBlock-Name {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 16px;
+  color: #808191;
+}
+.DataTime-containers {
+  margin-bottom: 16px;
+}
+.datepicker-input {
+  margin-top: 16px;
+  background-color: #f7f7f7;
+  height: 56px;
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #b2b3bd;
+}
+.datepicker-input:focus {
+  outline: none;
+}

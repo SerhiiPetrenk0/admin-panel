@@ -1,0 +1,10 @@
+body {
+  --btnColor: #55603d;
+}
+
+.adminToolsGlobal {
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}

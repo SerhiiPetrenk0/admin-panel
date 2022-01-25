@@ -1,0 +1,16 @@
+.CustomButton-container {
+  background: var(--btnColor);
+  color: white;
+  width: 200px;
+  height: 56px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: Inter;
+}
